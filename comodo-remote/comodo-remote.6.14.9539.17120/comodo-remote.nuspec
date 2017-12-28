@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>comodo-remote</id>
+        <version>6.14.9539.17120</version>
+        <title>COMODO Remote Control</title>
+        <authors>inventicauk</authors>
+        <owners>COMODO Security Solutions,Inc</owners>
+        <projectUrl>http://www.github.com/inventicauk/comodo-remote</projectUrl>
+        <iconUrl>https://help.comodo.com/uploads/products/ae845230b12ec37552fe245d98c75f06.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>https://dl.cmdm.comodo.com/download/ComodoRemoteControl.exe</description>
+        <summary>Comodo Remote Control for ITSM and RMM from COMODO One https://one.comodo.com
+https://help.comodo.com/topic-399-1-786-10138-.html</summary>
+        <releaseNotes />
+        <copyright>Copyright © 2017 COMODO Security Solutions, Inc</copyright>
+        <tags>COMODO ITSM RMM RemoteDesktop Remote Screen Sharing Management CRControl comodo-remotecontrol</tags>
+    </metadata>
+    <files>
+        <file src="tools\chocolateybeforemodify.ps1" target="tools\chocolateybeforemodify.ps1" />
+        <file src="tools\chocolateyinstall.ps1" target="tools\chocolateyinstall.ps1" />
+        <file src="tools\chocolateyuninstall.ps1" target="tools\chocolateyuninstall.ps1" />
+        <file src="tools\VERIFICATION.txt" target="tools\VERIFICATION.txt" />
+    </files>
+</package>
